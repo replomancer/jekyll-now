@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I write software and this is my programming blog.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[lukasz.kozuchowski@gmail.com](mailto:lukasz.kozuchowski@gmail.com)
