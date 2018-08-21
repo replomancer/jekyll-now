@@ -23,7 +23,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 60%;
   padding: 0 10px;
   width: 100%;
 }
@@ -219,6 +219,7 @@ nav {
 //
 
 .posts > .post {
+  padding-top: 2em;
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
 }
@@ -233,7 +234,6 @@ nav {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
-    font-size: 22px;
     font-style: italic;
   }
 
@@ -260,7 +260,15 @@ footer {
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-@import "highlights";
+@import "jekyllHighlighterAtomOneDarkTheme/syntax-highlighting";
 @import "svg-icons";
 
 @import "{{ site.theme }}";
+
+body {
+    font-size: 120%;
+}
+
+code {
+    font-size: 100%;
+}
