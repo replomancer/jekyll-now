@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Chemotaxis
+image: posts/chemotaxis.png
+image_width: 500
+image_height: 500
 ---
 
 Here's a little bacteria simulation I've built in ClojureScript.
